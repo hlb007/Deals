@@ -1,0 +1,65 @@
+{
+  "formFields" : [
+
+    {
+      "name"        : "fName",
+      "label"       : "First Name",
+      "type"        : "text",
+      "required"    : true,
+      "minlength"   : "3",
+      "maxlength"   : "20",
+      "placeholder" : "John"
+    },
+    {
+      "name"        : "mName",
+      "label"       : "middle Name",
+      "type"        : "text",
+      "required"    : true,
+      "minlength"   : "3",
+      "maxlength"   : "20",
+      "placeholder" : "Smith"
+    },
+    {
+      "name"        : "lName",
+      "label"       : "Last Name",
+      "type"        : "text",
+      "required"    : true,
+      "minlength"   : "3",
+      "maxlength"   : "20",
+      "placeholder" : "Doe"
+    },
+    {
+      "name"         : "expense",
+      "label"        : "Expenses",
+      "type"         : "number",
+      "required"     : true,
+      "minlength"    : "0",
+      "maxlength"    : "10",
+      "placeholder"  : "123456789"
+    },
+    {
+      "name"         : "email",
+      "label"        : "Email",
+      "type"         : "email",
+      "required"     : true,
+      "minlength"    : "0",
+      "maxlength"    : "100",
+      "placeholder"  : "John@Doe.com.au"
+    },
+    {
+      "name"         : "occupation",
+      "label"        : "Occupation",
+      "type"         : "dropdown",
+      "required"     : true,
+      "minlength"    : "0",
+      "maxlength"    : "100",
+      "placeholder"  : "John@Doe.com.au",
+      "occupationList" : [ {"name":"Teacher", "shade":"dark"},
+        {"name":"Professional", "shade":"light", "notAnOption": true},
+        {"name":"Programmer", "shade":"dark"},
+        {"name":"Doctor", "shade":"dark", "notAnOption": true},
+        {"name":"Officer", "shade":"light", "notAnOption": false}
+      ]
+    }
+  ]
+}

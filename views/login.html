@@ -1,0 +1,22 @@
+<header ng-include="login.views+'header.html'"></header>
+
+<div class="login-box animated fadeInUp">
+	<div class="box-header">
+		<h2>Log In</h2>
+	</div>
+	<label for="username">Username</label>
+	<br/>
+	<input type="text" id="username" ng-model="login.username" ng-class="{'error':login.errorClass}" ng-focus="login.errorClass=false">
+	<br/>
+	<label for="password">Password</label>
+	<br/>
+	<input type="password" id="password" ng-model="login.pass" ng-class="{'error':login.errorClass}" ng-focus="login.errorClass=false">
+	<br/>
+	<button type="button" ng-click="login.sigIn()">Sign In</button>
+	<br/>
+	<a href="#"><p class="small">Forgot your password?</p></a>
+</div>
+
+<footer class="login-footer">
+	{{login.locationMessage}}
+</footer>

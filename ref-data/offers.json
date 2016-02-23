@@ -1,0 +1,223 @@
+{
+  "offers":[
+    {
+      "loans" : [
+        {
+          "name":"Personal Loan",
+          "offerType":"loan",
+          "offerHeading":"Westpac Personal Loan",
+          "offerDescription":"Get 5% interest rate only",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Home Loan",
+          "offerType":"loan",
+          "offerHeading":"Westpac Wonder ",
+          "offerDescription":"Get home loan easily",
+          "offerImgUrl":"img/offer2.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Pension",
+          "offerType":"loan",
+          "offerHeading":"CBA Pension Plan",
+          "offerDescription":"Get pension with 10% interest benefits",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "old",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Business Loan",
+          "offerType":"loan",
+          "offerHeading":"NAB Business Plan",
+          "offerDescription":"Get business loan",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Education Loan",
+          "offerType":"loan",
+          "offerHeading":"Westpac Education Loan",
+          "offerDescription":"Get education loan",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "young",
+          "location" : "Adelaide"
+        }
+      ],
+      "cards":[
+        {
+          "name":"Credit Card",
+          "offerType":"cards",
+          "offerHeading":"Westpac Low rate credit card",
+          "offerDescription":"Get low rate credit ",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Travel Cards",
+          "offerType":"cards",
+          "offerHeading":"Nab Travel Card",
+          "offerDescription":"Get Travel made easy",
+          "offerImgUrl":"img/offer2.jpg",
+          "userType" : "young",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Travel Cards",
+          "offerType":"cards",
+          "offerHeading":"Nab Travel Card",
+          "offerDescription":"Get Travel made easy",
+          "offerImgUrl":"img/offer2.jpg",
+          "userType" : "mid",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Travel Cards",
+          "offerType":"cards",
+          "offerHeading":"Nab Travel Card",
+          "offerDescription":"Get Travel made easy",
+          "offerImgUrl":"img/offer2.jpg",
+          "userType" : "old",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Business Cards",
+          "offerType":"cards",
+          "offerHeading":"Westpac Business card",
+          "offerDescription":"Get business loan",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Young Achiever Cards",
+          "offerType":"cards",
+          "offerHeading":"Westpac Young Achiever card",
+          "offerDescription":"Get extra benefits on for teen",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "young",
+          "location" : "Adelaide"
+        }
+      ],
+      "food" : [
+        {
+          "name":"Maya The Dhaba",
+          "offerType":"food",
+          "offerHeading":"Maya The Dhaba",
+          "offerDescription":"Get 10% off on second order",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Park Hyatt Sydney",
+          "offerType":"food",
+          "offerHeading":"Park Hyatt Sydney",
+          "offerDescription":"Get home loan easily",
+          "offerImgUrl":"img/offer2.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Hard Rock Cafe",
+          "offerType":"food",
+          "offerHeading":"Hard rock cafe",
+          "offerDescription":"Get booze in Happy hours",
+          "offerImgUrl":"img/offer4.jpg",
+          "userType" : "young",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Cafe 55",
+          "offerType":"food",
+          "offerHeading":"Cafe 55",
+          "offerDescription":"Get offer on Over 55",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "old",
+          "location" : "Melbourne"
+        }
+      ],
+      "travel":[
+        {
+          "name":"Skydiving",
+          "offerType":"travel",
+          "offerHeading":"Skydiving",
+          "offerDescription":"Get benefits on groups",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "young",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Skydiving",
+          "offerType":"travel",
+          "offerHeading":"Skydiving",
+          "offerDescription":"Get benefits on groups",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Disney worlds",
+          "offerType":"travel",
+          "offerHeading":"Disney worlds",
+          "offerDescription":"Get benefits on groups",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "young",
+          "location" : "GoldCoast"
+        },
+        {
+          "name":"Scuba Diving",
+          "offerType":"travel",
+          "offerHeading":"Scuba Diving",
+          "offerDescription":"Get benefits on groups",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"Scuba Diving",
+          "offerType":"travel",
+          "offerHeading":"Scuba Diving",
+          "offerDescription":"Get benefits on groups",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "young",
+          "location" : "Melbourne"
+        }
+      ],
+      "leisure" : [
+        {
+          "name":"JB HIFI",
+          "offerType":"leisure",
+          "offerHeading":"JB Hifi ",
+          "offerDescription":"Get offer on Fridays",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "mid",
+          "location" : "Sydney"
+        },
+        {
+          "name":"Nike",
+          "offerType":"leisure",
+          "offerHeading":"Nike",
+          "offerDescription":"Get offer on shoes",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "young",
+          "location" : "Melbourne"
+        },
+        {
+          "name":"WestField",
+          "offerType":"leisure",
+          "offerHeading":"Westfield Coach",
+          "offerDescription":"Get offer on Over 55",
+          "offerImgUrl":"img/offer1.jpg",
+          "userType" : "old",
+          "location" : "Sydney"
+        }
+      ]
+    }
+  ]
+}

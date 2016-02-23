@@ -1,0 +1,92 @@
+<header ng-include="offer.views +'header.html'"></header>
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Page Heading/Breadcrumbs -->
+    <div style="margin: 20px" class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Offer Details
+                <small></small>
+            </h1>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Project One -->
+    <div class="content-section">
+        <div class="row">
+            <div class="col-md-7">
+                <a href="portfolio-item.html">
+                    <img class="img-responsive img-hover" ng-src="{{offerImg}}" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>{{offerTitle}}</h3>
+                <h4></h4>
+                <p>{{offerOfferDesc}}</p>
+                <!--<a class="btn btn-primary" href="portfolio-item.html">View Project</i></a>-->
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+    <div style="margin: 20px" class="row">
+        <div class="col-lg-12">
+            <h2 class="page-header">Would you like to register for special offer ? Please submit the form.
+                <small></small>
+            </h2>
+        </div>
+    </div>
+    <div style="padding-top:20px; height:100%;color:white;">
+
+        <ng-form name="myForm" novalidate >
+            <div class="" ng-repeat="formElements in offer.formElementsData">
+                <div class="row text-center" style="margin: 12px 0 12px 0;">
+                    <span class="col-xs-4 col-md-4">{{formElements.label}} <span ng-show="formElements.required">*</span>:</span>
+                                                              <span ng-if="formElements.type != 'dropdown'" class="col-xs-6 col-md-6">
+                                                                <input class="form-control" style="width:100%;" type="{{formElements.type}}"
+                                                                       name="{{formElements.name}}"
+                                                                       ng-model = "offer.modelElementsList[$index]"
+                                                                       placeholder="{{formElements.placeholder}}"
+                                                                       ng-required="formElements.required"
+                                                                       ng-minlength="formElements.minlength"
+                                                                       ng-maxlength="formElements.maxlength"
+                                                                >
+                                                              </span>
+                                                              <span ng-if="formElements.type == 'dropdown'" class="col-xs-6 col-md-6">
+                                                                <select class="form-control"
+                                                                        ng-model="offer.modelElementsList[$index]"
+                                                                        ng-options="color.name for color in formElements.occupationList"
+                                                                >
+                                                                    <option value="">-- choose {{formElements.label}} --</option>
+                                                                </select>
+                                                              </span>
+                </div>
+                <div class="row text-center" role="alert">
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.minlength">
+        Too short!</span>
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.maxlength">
+        Too long!</span>
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.email">
+        email wrong!</span>
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.number">
+        Invalid number!</span>
+                    <!-- <span class="error" ng-show="myForm.{{formElements.name}}.$error.required">
+                      required!</span> -->
+                </div>
+
+                <h1> {{modelElemets.name}}</h1>
+            </div>
+            <br>
+            <br>
+            <br>
+            <section class="col-xs-offset-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+                <button type="submit" name="submit" data-ng-click="navigateToHome()" class="form-control">Submit</button>
+            </section>
+
+        </ng-form>
+        <button type="button" class="btn-default" name="button" ng-click="offer.updateModelValues()"> click me</button>
+        <h1>{{offer.formElementsData[0].fName}} </h1>
+    </div>
+</div>
+<footer class="footer-common">
+</footer>

@@ -1,0 +1,52 @@
+<header ng-include="vm.views+'header.html'"></header>
+<div class="body-background-login" style="padding-top:100px; height:100%;color:white;">
+
+  <ng-form name="myForm" novalidate >
+    <div class="" ng-repeat="formElements in vm.formElementsData">
+      <div class="row text-center" style="margin: 12px 0 12px 0;">
+        <span class="col-xs-4 col-md-4">{{formElements.label}} <span ng-show="formElements.required">*</span>:</span>
+                                                              <span ng-if="formElements.type != 'dropdown'" class="col-xs-6 col-md-6">
+                                                                <input class="form-control" style="width:100%;" type="{{formElements.type}}"
+                                                                       name="{{formElements.name}}"
+                                                                       ng-model = "vm.modelElementsList[$index]"
+                                                                       placeholder="{{formElements.placeholder}}"
+                                                                       ng-required="formElements.required"
+                                                                       ng-minlength="formElements.minlength"
+                                                                       ng-maxlength="formElements.maxlength"
+                                                                >
+                                                              </span>
+                                                              <span ng-if="formElements.type == 'dropdown'" class="col-xs-6 col-md-6">
+                                                                <select class="form-control"
+                                                                        ng-model="vm.modelElementsList[$index]"
+                                                                        ng-options="color.name for color in formElements.occupationList"
+                                                                >
+                                                                  <option value="">-- choose {{formElements.label}} --</option>
+                                                                </select>
+                                                              </span>
+      </div>
+      <div role="alert">
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.minlength">
+        Too short!</span>
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.maxlength">
+        Too long!</span>
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.email">
+        email wrong!</span>
+      <span class="error" ng-show="myForm.{{formElements.name}}.$error.number">
+        Invalid number!</span>
+        <!-- <span class="error" ng-show="myForm.{{formElements.name}}.$error.required">
+          required!</span> -->
+      </div>
+
+      <h1> {{modelElemets.name}}</h1>
+    </div>
+    <br>
+    <br>
+    <br>
+    <section class="col-xs-offset-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 text-center">
+      <button type="submit" name="submit" class="form-control">Submit</button>
+    </section>
+
+  </ng-form>
+  <button type="button" name="button" ng-click="vm.updateModelValues()"> click me</button>
+  <h1>{{vm.formElementsData[0].fName}} </h1>
+</div>

@@ -1,0 +1,46 @@
+<header ng-include="mid.views+'header.html'"></header>
+<!-- Header -->
+<div class="intro-header">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>Welcome to westpac</h1>
+                    <h3>Will fullfill your requirements</h3>
+                    <hr class="intro-divider">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.intro-header -->
+
+<!-- Page Content -->
+<!-- Project One -->
+<div style="margin: 50px">
+
+    <!-- Projects Row -->
+    <div class="row">
+        <div class="" ng-repeat="offer in mid.data.offers">
+            <div class="col-md-6 img-portfolio" data-ng-click="openOffer(offer.title,offer.img,offer.offer)" class="custom_offer_midage">
+                <a href="">
+                    <img class="img-responsive img-hover" ng-src="{{offer.img}}" alt="">
+                </a>
+                <h3>
+                    <a href="">{{offer.title}}</a>
+                </h3>
+                <p>{{offer.offer}}</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer class="footer-common">
+
+</footer>
+
+

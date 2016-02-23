@@ -1,0 +1,75 @@
+.header_sydney {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/syd1.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.header_melbourne {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/mel.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+.banner {
+    padding: 10%;
+    color: #f8f8f8;
+    background: url(../img/footer.png) no-repeat center center;
+    background-size: 100%;
+}
+.banner_sydney {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/footer1_1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.banner_melbourne {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/footer.png) no-repeat center center;
+    background-size: cover;
+}
+.custom_background_sydney{
+background: #f7ebca;
+}
+.custom_background_melbourne{
+background: #f4abab
+}
+.custom_offer_sydney{
+background-color: #204d74!important
+}
+.custom_offer_melbourne{
+background-color: #5e5e5e;
+}
+.custom_offer_oldage{
+    background-color: #843534;
+}
+.custom_offer_midage{
+    background-color: #255625;
+}

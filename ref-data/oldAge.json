@@ -1,0 +1,40 @@
+{
+  "city_id": "2",
+  "header": {
+    "background_img": "img/mel.jpg"
+  },
+  "footer": {
+    "background_img": "img/sydney.jpg"
+  },
+  "offers": [{
+    "offer_id": 1,
+    "title": "25% discount on Dominos",
+    "offer": "Give your family a much deserved traet on this Australia day special treat on McD with a whopping 25% discount when paid through Westpac Credit cards.",
+    "img": "img/y1.png"
+  }, {
+    "offer_id": 2,
+    "title": "Credit Cards",
+    "offer": "Westpac are here to help you find the right credit card. Whether you are after a low interest rate, rewards points or the flexibility of a low fee, compare our wide range of credit cards.",
+    "img": "img/offer3.jpg"
+  }, {
+    "offer_id": 3,
+    "title": "Reward Cards",
+    "offer": "0.00% p.a. for 14 months on balance transfers requested at Altitude and Altitude Platinum card application. Variable cash advance rate applies after 14 months.0.00% p.a. for 14 months on balance transfers requested at Altitude and Altitude Platinum card application. Variable cash advance rate applies after 14 months.",
+    "img": "img/offer4.jpg"
+  }, {
+    "offer_id": 4,
+    "title": "Flexi Loan",
+    "offer": "Flexi Loan is different to a traditional personal loan. It allows you to withdraw funds whenever you want (up to an agreed limit) without reapplying.",
+    "img": "img/offer11.jpg"
+  }, {
+    "offer_id": 5,
+    "title": "Get cheap flight tickets",
+    "offer": "Becoming your own boss is the chance to create a new working future. It’s the opportunity to take control of your working life, do something you feel passionate about and build new financial possibilities.",
+    "img": "img/y2.png"
+  }, {
+    "offer_id": 6,
+    "title": "Get Free Shopping",
+    "offer": "Becoming your own boss is the chance to create a new working future. It’s the opportunity to take control of your working life, do something you feel passionate about and build new financial possibilities.",
+    "img": "img/y5.jpg"
+  }]
+}

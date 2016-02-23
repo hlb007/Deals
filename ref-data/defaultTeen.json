@@ -1,0 +1,65 @@
+{
+  "formFields" : [
+
+    {
+      "name"        : "fName",
+      "label"       : "First Name",
+      "type"        : "text",
+      "required"    : true,
+      "minlength"   : "3",
+      "maxlength"   : "20",
+      "placeholder" : "John"
+    },
+    {
+      "name"        : "mName",
+      "label"       : "middle Name",
+      "type"        : "text",
+      "required"    : true,
+      "minlength"   : "3",
+      "maxlength"   : "20",
+      "placeholder" : "Smith"
+    },
+    {
+      "name"        : "lName",
+      "label"       : "Last Name",
+      "type"        : "text",
+      "required"    : true,
+      "minlength"   : "3",
+      "maxlength"   : "20",
+      "placeholder" : "Doe"
+    },
+    {
+      "name"         : "expense",
+      "label"        : "Expenses",
+      "type"         : "number",
+      "required"     : true,
+      "minlength"    : "0",
+      "maxlength"    : "10",
+      "placeholder"  : "123456789"
+    },
+    {
+      "name"         : "email",
+      "label"        : "Email",
+      "type"         : "email",
+      "required"     : true,
+      "minlength"    : "0",
+      "maxlength"    : "100",
+      "placeholder"  : "John@Doe.com.au"
+    },
+    {
+      "name"         : "education",
+      "label"        : "Education",
+      "type"         : "dropdown",
+      "required"     : true,
+      "minlength"    : "0",
+      "maxlength"    : "100",
+      "placeholder"  : "Graduate",
+      "occupationList" : [ {"name":"HighSchool", "shade":"dark"},
+        {"name":"Graduate", "shade":"light", "notAnOption": true},
+        {"name":"Post Graduate", "shade":"dark"},
+        {"name":"Bussiness Administration", "shade":"dark", "notAnOption": true},
+        {"name":"Law", "shade":"light", "notAnOption": false}
+      ]
+    }
+  ]
+}

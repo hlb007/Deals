@@ -1,0 +1,38 @@
+<header ng-include="old.views +'header.html'"></header>
+<div class="intro2-header">
+    <div class="container no-margin">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1></h1>
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="container">
+    <div class="" ng-repeat="offer in old.data.offers">
+        <!-- Project One -->
+        <div class="content-section" data-ng-click="openOffer(offer.title,offer.img,offer.offer)" class="custom_offer_oldage">
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="">
+                        <img class="img-responsive img-hover" ng-src="{{offer.img}}" alt="">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <h3>{{offer.title}}</h3>
+                    <h4></h4>
+                    <p>{{offer.offer}}</p>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+</main>
+
+<footer class="footer-common">
+</footer>
+</body>

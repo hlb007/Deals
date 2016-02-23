@@ -1,0 +1,170 @@
+<header ng-include="young.views+'header.html'"></header>
+<div class="intro3-header">
+    <div class="container no-margin">
+        <div class="fullscreen-bg">
+            <video loop muted autoplay poster="http://dev2.slicejack.com/fullscreen-video-demo/img/videoframe.jpg" class="fullscreen-bg__video">
+                <source src="http://dev2.slicejack.com/fullscreen-video-demo/video/big_buck_bunny.mp4" type="video/mp4">
+                <source src="http://dev2.slicejack.com/fullscreen-video-demo/video/big_buck_bunny.ogv" type="video/ogg">
+                <source src="http://dev2.slicejack.com/fullscreen-video-demo/video/big_buck_bunny.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="intro-message">
+                    <h1>Welcome to westpac</h1>
+                    <h3>Try it out ...!!! </h3>
+                    <hr class="intro-divider">
+                    <ul class="list-inline intro-social-buttons">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="services" style="background: #fff">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">At Your Service</h2>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                    <h3>Study</h3>
+                    <p class="text-muted">We provide to education loan services.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                    <h3>Ready to fly</h3>
+                    <p class="text-muted">You can fly!</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                    <h3>Up to Date</h3>
+                    <p class="text-muted">We provide for all your plans.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                    <h3>For your Love</h3>
+                    <p class="text-muted">You have to plan surprises for your love ones !</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="portfolio" style="padding: 20px; background: #fff">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-lg-4 col-sm-6" >
+                <a href class="portfolio-box" ng-click="openOffer('0')">
+                    <img src="img/y1.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Pizza Offer
+                            </div>
+                            <div class="project-name">
+                                Dominos buy 1 get 1
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#" class="portfolio-box" ng-click="openOffer('1')">
+                    <img src="img/y2.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Travel Offer
+                            </div>
+                            <div class="project-name">
+                                Flight 10% off
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" ng-click="openOffer('2')">
+                <a href="#" class="portfolio-box">
+                    <img src="img/y6.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Skydiving
+                            </div>
+                            <div class="project-name">
+                                20% off on weekdays
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" ng-click="openOffer('3')">
+                <a href="#" class="portfolio-box">
+                    <img src="img/y3.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Gift Card
+                            </div>
+                            <div class="project-name">
+                                JB HI-FI gift card
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" ng-click="openOffer('4')">
+                <a href="#" class="portfolio-box">
+                    <img src="img/y4.png" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                MacDonald's Deal
+                            </div>
+                            <div class="project-name">
+                                20% off on Happy hours
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6" ng-click="openOffer('5')">
+                <a href="#" class="portfolio-box">
+                    <img src="img/y5.jpg" class="img-responsive" alt="">
+                    <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption-content">
+                            <div class="project-category text-faded">
+                                Shopping
+                            </div>
+                            <div class="project-name">
+                                Shopping Card
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+
+<div style="background-color: #ffffff">
+    <footer class="footer-common">
+
+    </footer>
+</div>
